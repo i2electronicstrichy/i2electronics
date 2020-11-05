@@ -278,7 +278,7 @@
 		float:none;
 		margin:0px 0px 0px 0px;
 		border-radius:0px;
-		background: rgba(91,44,208,1);
+		background: #2026B0;
     background: -moz-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,44,208,1)), color-stop(100%, rgba(83,98,215,1)));
     background: -webkit-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);

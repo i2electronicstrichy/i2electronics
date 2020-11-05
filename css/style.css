@@ -1,21 +1,4 @@
-/*-------------------------------------
-    
-	
-	THERANKME © 2020
-	
----------------------------------------
-    
-    CSS INDEX
-    ===================
-	
-    1. BODY
-	2. CUSTOM CSS / A
-	3. PRELOADER
-	4. NAVIGATION
-	5. SLIDER
 
----------------------------------------*/
-/*--------------
 1.Theme default CSS
 --------------------------*/
 body, html {
@@ -668,7 +651,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2cd0', end
 	float:left;
 	width:100%;
 	height: 85px;
-	background:#f2fcfe;
+	background:#ffffff;
 	z-index:100;
 	overflow:hidden;
 }
@@ -905,7 +888,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2cd0', end
 .try_banner_slider_wrapper{
 	float:left;
 	width:100%;
-	background:url('../images/content/about_bg.jpg') 50% 0 repeat-y;
+	background:#2026B0;
 	background-position:center 0;
 	background-size:cover;
 	position:relative;
@@ -1088,7 +1071,7 @@ width:100%;
 	color:#ffffff;
 	padding-top:20px;
 	padding-bottom:20px;
-	animation-delay: 1.5s;
+	animation-delay: 0.75s;
 }
 .try_slider_banner_cont ul{
 	animation-delay: 1.7s;
@@ -1096,7 +1079,7 @@ width:100%;
 .try_slider_banner_cont li{
 	font-size:20px;
 	color:#ffffff;
-	font-family: 'Poppins';
+	font-family: 'FontAwesome';
 	margin-top:10px;
 	float: left;
     width: 100%;
@@ -1170,29 +1153,6 @@ width:100%;
 	font-size:36px;
 	color:#111111;
 }
-.try_recent_mob_heading_wrapper p{
-	display:inline-block;
-	margin-top:30px;
-	width:180px;
-	height:35px;
-	text-transform:uppercase;
-	line-height:34px;
-	background: rgba(91,44,208,1);
-	background: -moz-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,44,208,1)), color-stop(100%, rgba(83,98,215,1)));
-	background: -webkit-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
-	background: linear-gradient(135deg, rgba(91,44,208,1) 0%, rgba(83,98,215,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2cd0', endColorstr='#5362d7', GradientType=1 );
-	color:#ffffff;
-	font-size:16px;
-	font-weight:700;
-	    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-	position:relative;
-}
 .try_left_dots{
 	    float: left;
     width: 10px;
@@ -1241,7 +1201,7 @@ width:100%;
 }
 .try_recent_mob_heading_wrapper:after{
 	    content: '';
-    border: 1px solid #e3e3e3;
+    
     width: 100%;
     position: absolute;
     left: 0;
@@ -1335,7 +1295,7 @@ width:100%;
 .try_rc_mob_box_wrapper{
 	float:left;
 	width:100%;
-	background:#f7f8ff;
+	background:#ffffff;
 	border:1px solid #e3e3e3;
 	text-align:center;
 	padding-top:60px;
@@ -1794,7 +1754,7 @@ width:100%;
 .try_sh_img_cont_wrapper h3{
 	font-size:18px;
 	color:#111111;
-	text-align: center;
+	
 }
 .try_sh_img_cont_wrapper p{
 	font-size:18px;
@@ -2747,7 +2707,7 @@ width:100%;
 .try_footer_main_section_wrapper{
 	float:left;
 	width:100%;
-	background:#46aeea;
+	background:#545454;
 	padding-top:100px;
 }
 .try_footer_first_sec_wrapper{
@@ -2756,7 +2716,7 @@ width:100%;
 }
 .try_footer_first_sec_wrapper h4{
 	font-size:14px;
-	color:rgba(255, 255, 255, 0.58);
+	color:rgba(255, 255, 255);
 	padding-top:35px;
 	line-height:24px;
 }
@@ -2805,7 +2765,7 @@ width:100%;
 	margin-top:10px;
 }
 .try_footer_second_sec_wrapper li a{
-	color:rgba(255, 255, 255, 0.58);
+	color:rgba(255, 255, 255);
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2877,7 +2837,7 @@ width:100%;
 }
 .try_footer_third_sec_wrapper h4{
 	font-size:14px;
-	color:rgba(255, 255, 255, 0.58);
+	color:rgba(255, 255, 255);
 	padding-top:30px;
 	float:left;
 	width:100%;
